@@ -1,0 +1,15 @@
+=== Changelog ===
+Version 1.1.3
+* Add Free vs Pro content tab.
+* Add recommend EasyMega plugin.
+Version 1.1.2
+* Improve demo content tab.
+Version 1.0.22
+* Fixed some theme standard issues
+Version 1.0.1
+* Removed un-supported tags
+* Fixed prefix issues
+Version 1.0.1
+* Updated designs, layouts, added CSS, fixed some bugs
+Version 1.0.0
+* Submitted theme for review in http://wordpress.org

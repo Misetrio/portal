@@ -1,0 +1,42 @@
+Version 0.1
+  i) Initial Version Released
+
+Version 0.2
+  i)   Added documentation to setup home page in readme.txt file.
+  ii)  Improved responsive layout.
+  iii) Added woocommerce theme support.
+
+Version 0.3
+  i)   Fixed the menu hover color.
+  ii)  Done css customization.
+  iii) Done the escaping in no-result.php file.
+
+Version 0.3.1
+  i)   Done the code changes in no-result.php file.
+  ii)  Added proper translation in no-result.php file.
+  iii) Done css Changes in sidebar.
+  iv)  Tested theme upto WP version 4.9.4.
+
+Version 0.3.2
+  i)   Added home link href attribute in 404.php file.
+  ii)  Changed the color of footer search widget.
+  iii) Resolved the image page format issue.
+  iv)  Resolved the "many categories edge case" issue.
+  v)   Resolved the submenu issue.
+
+Version 0.3.3
+  i)  Resolved theme issues.
+  ii) Changed theme color.
+  iii) Delete unused js files.
+  iv) Added updated woocommerce files.
+
+Version 0.3.4
+  i)   Fixed the css of about section in reponsive media.
+  ii)  Delete the unused images from image folder.
+  iii) Added hooks.
+  iv)  Added post formats.
+  v)   Fixed some minor code issues.
+
+Version 0.3.5
+  ii)  Updated bootstrap.
+  iii) Added potfile in language folder.

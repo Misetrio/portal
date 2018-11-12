@@ -1,0 +1,333 @@
+
+/* Responsive CSS Style */
+@media only screen and (max-width: 1012px) {
+
+}
+@media only screen and (min-width: 960px) and (max-width: 1012px) {
+	.container {
+		width: 940px;
+	}
+	.header-search {
+		width: 240px;
+		.search-input {
+			width: 195px;
+		}
+	}
+	#primary {
+		width: 625px;
+	}	
+	.home,
+	.archive,
+	.category,
+	.search {
+		#primary {
+			width: 450px;
+		}
+	}
+	.entry-icons {
+		span {
+			a,
+			span.share-icon {
+				margin-right: 10px;
+			}
+		}
+	}
+	.entry-share .share-box a {
+		margin-left: 1px !important;
+	}
+	.footer-columns {
+		.footer-column-1,
+		.footer-column-2,
+		.footer-column-3,
+		.footer-column-4 {
+			width: 300px;
+		}			
+	}
+	.entry-related .hentry {
+		width: 187px;
+	}
+	.comment-form {
+		.comment-form-author,
+		.comment-form-email,
+		.comment-form-url {
+			width: 187px;
+		}
+	}
+
+}
+
+@media only screen and (min-width: 959px) {
+	.mobile-menu {
+		display: none !important;
+	}
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+	.site-header {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);			
+		width: 100%;
+		height: 45px;
+		position: relative;
+	}
+	#primary-bar-sticky-wrapper,
+	#primary-bar {
+		height: 0;
+		position: static !important;
+	}
+	.mobile-menu-icon {
+		display: block;
+	}
+	.mobile-menu {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	.container,
+	#primary,
+	#secondary {
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	.site-footer {
+		width: 100%;
+	}
+	.breadcrumbs {
+		padding-left: 3%;
+		padding-right: 3%;
+	}	
+	#primary-nav,
+	#secondary-nav {
+		display: none;
+	}
+
+	#secondary-bar {
+		height: 0;
+		position: absolute;
+	}
+	#primary {
+		float: none;
+		margin-bottom: 25px;
+	}
+	#secondary {
+		float: none;
+	}
+	.sidebar,
+	.site-footer {
+		.widget_ad {
+			text-align: center;
+		}
+	}
+	.comment-form {
+		.comment-form-author,
+		.comment-form-email,
+		.comment-form-url {
+			width: 100%;
+		}
+	}	
+	.footer-columns {
+		.footer-column-1,
+		.footer-column-2,
+		.footer-column-3 {
+			float: none;
+			width: 98%;
+			margin: 0 auto 20px;
+		}	
+	}
+	#site-bottom {
+		text-align: center;
+		.site-info {
+			float: none;
+			margin-bottom: 5px;
+		}		
+		.footer-nav {
+			float: none;
+			ul li {
+				padding: 0 5px;
+			}
+		}
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.sidebar-2 {
+		width: 20%;
+	}
+	.home,
+	.archive,
+	.category,
+	.search {
+		#primary {
+			float: left;
+			width: 77%;
+			margin-left: 2%;
+		}
+		#secondary {
+			clear: both;
+		}
+	}
+	.entry-related {
+		.hentry {
+			width: 32%;
+			margin-right: 2%;
+		}
+	}	
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+	.home,
+	.archive,
+	.category,
+	.search {
+		#primary {
+			margin-left: 1%;
+			width: 98%;
+		}
+	}	
+	.sidebar-2 {
+		display: none;
+	}	
+	.error-404 {
+		.page-content .search-form input.search-field {
+			width: 200px;
+		}
+	}
+	#site-bottom {
+		text-align: center;
+		.site-info {
+			float: none;
+			margin-bottom: 5px;
+		}
+		.footer-nav li {
+			margin: 0 5px;
+		}
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.content-loop {
+		.entry-title {
+			font-size: 22px;
+		}
+	}
+	.entry-icons {
+		span {
+			a,
+			span.share-icon {
+				margin-right: 10px;
+			}
+		}
+	}
+	.entry-share .share-box a {
+		margin-left: 0 !important;
+	}	
+	.single h1.entry-title {
+		font-size: 26px;
+	}
+	.entry-related {
+		.hentry {
+			width: 48.5%;
+			margin-right: 3%;
+			&.last {
+				margin-right: 3%;
+			}
+			&:nth-of-type(2n) {
+				margin-right: 0;
+			}
+			&:nth-of-type(2n+1) {
+				clear: left;
+			}
+			&:nth-of-type(3n+1) {
+				clear: none;
+			}
+			.thumbnail-link {
+				width: 100%;
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}	
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+
+	.header-search {
+		width: 50%;
+		.search-input {
+			width: 80%;
+		}
+		.search-submit {
+			width: 19%;
+		}
+	}
+	.content-loop .hentry .entry-title {
+		font-size: 18px;
+	}
+	.entry-meta .entry-category,
+	.entry-share {
+		display: none;
+	}	
+	.entry-related {
+		.hentry {
+			width: 100%;
+			margin: 0 0 15px 0;
+			.thumbnail-link {
+				float: left;
+				margin: 0 10px 0 0;
+				width: 100px;
+			}
+			.entry-title {
+				display: table;
+			}
+		}
+	}	
+	.author-box .avatar {
+		width: 48px;
+	}
+	.pagination .page-numbers {
+		font-size: 13px;
+		margin: 0;
+		height: 32px;
+		line-height: 32px;
+	}
+	.page-title,
+	.single h1.entry-title, 
+	.page h1.entry-title {
+		font-size: 22px;
+	}
+	.footer-social a {
+		margin-right: 1px;
+	}
+	.comment-author .avatar {
+		display: none;
+	}
+	.comment-author, 
+	.comment-awaiting-moderation, 
+	.comment-content, 
+	.comment-list .reply {
+		padding-left: 0;
+	}
+	#comments,
+	.comment-respond {
+		.comment-metadata {
+			display: none;
+		}
+	}
+}
+@media only screen and (max-width: 359px) {
+	.entry-meta {
+		font-size: 13px;
+		.entry-author .avatar {
+	    	width: 24px;
+	    	margin: 0 4px -6px 0;
+		}
+	}
+}

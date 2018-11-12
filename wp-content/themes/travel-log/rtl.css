@@ -1,0 +1,317 @@
+/*
+ * Theme Name: Travel Log RTL CSS
+ * Description: Adds support for languages written in a Right To Left (RTL) direction.
+ */
+/*------------------------------------*
+    General & Commons
+*------------------------------------*/
+body { 
+    direction: rtl; 
+    unicode-bidi: embed; 
+}
+/* Accessibility */
+.screen-reader-text:focus {
+    left: auto;
+    right: 5px;
+}
+/* List */
+ul, ol { margin: 15px 20px 15px 0; }
+/* Tables */
+table th, table td, caption, th, td { text-align: right; }
+.top-header .col-sm-6{
+    float: right;
+}
+.top-header .header-info a:before{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.top-header .header-info{
+    float: right;
+}
+.header-social {
+    float: left;
+}
+.site-branding{
+    float: right;
+}
+.site-logo, .site-logo-link, #site-identity {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.main-navigation ul ul li a {
+    text-align: right;
+}
+.site-header #main-nav{
+    float: left;
+    padding-right: 0;
+    padding-left: 25px;
+}
+#header-search .fa-search {
+    left: 0;
+    right: unset;
+}
+.main-navigation ul li.menu-btn a{
+    padding: 8px 20px 8px 12px !important;
+}
+.main-navigation ul li.menu-btn a:after{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.featured-slider .travel-banner.slick-slider[dir=rtl] .slick-next{
+    left: 0;
+    right: auto;
+}
+.featured-slider .travel-banner.slick-slider[dir=rtl] .slick-prev{
+    right: 0;
+    left: auto;
+}
+#simple-menu{
+    right: auto;
+    margin-left: 15px;
+    left: 35px;
+}
+#section-itinerary-search div.wp-travel-search p label{
+    text-align: right;
+}
+.travel-testimonial .testimonial-wrapper .col-sm-10 {
+    float: left;
+}
+.post-item-wrapper.trip-details .post-content h4{
+    float: right;
+    text-align: right;
+}
+.post-item-wrapper.trip-details .post-content .trip-price {
+    float: left;
+    text-align: left;
+}
+.post-item-wrapper.trip-details .post-content .wp-travel-trip-time{
+    text-align: right;
+}
+.post-item-wrapper.trip-details .post-content .trip-metas .wp-travel-average-review{
+    float:right;
+}
+.post-item-wrapper.trip-details .post-content span.trip-category {
+    float: left;
+    text-align: right;
+}
+.post-item-wrapper.trip-details .post-content .trip-metas .rating-count {
+    position: relative;
+    margin-left: 0;
+    float: right;
+    margin-right: 5px;
+    top: -3px;
+}
+.share-handle{
+    margin-top: 0;
+}
+.share-handle .btn-floating i {
+    display: block;
+    margin: 0px 5px 0;
+    position: relative;
+}
+.share-handle .social-reveal i{
+    margin-top:0;
+}
+
+.theme-read-more:after{
+    content: '\f104';
+    padding-left: 0;
+    margin-right: 5px;
+    position: absolute;
+    left: -10px;
+    top: -2px;
+}
+
+
+.wp-travel-offer{
+    right: -6px;
+    left: auto;
+}
+.wp-travel-offer span:before{
+    border-left: 3px solid #ad2321;
+    border-right: 3px solid transparent;
+    right: 0;
+    left: auto;
+}
+[dir=rtl] .slick-prev:before {
+    content: '\f105';
+}
+[dir=rtl] .slick-next:before {
+    content: '\f104';
+}
+.recmended-travel .recomended-lists[dir=rtl] .slick-prev,
+.featured-blog .blog-slide[dir=rtl] .slick-prev{
+    right: 10px;
+}
+.recmended-travel .recomended-lists[dir=rtl] .slick-next,
+.featured-blog .blog-slide[dir=rtl] .slick-next{
+    left: auto;
+    right: 30px;
+}
+.travel-blog .featured-blog .blog-latest-post .post-item-wrapper .post-content{
+    text-align: right;
+}
+.travel-blog .featured-blog .blog-latest-post .post-item-wrapper .meta-left{
+    float:right;
+}
+.travel-blog .featured-blog .blog-latest-post .post-item-wrapper .meta-right{
+    float:left;
+}
+.post-item-wrapper .post-content .read-more-link:after {
+    float: left;
+    content: '\f104';
+    padding-right: 5px;
+    padding-left: 0;
+    line-height: 19px;
+}
+.travel-blog .featured-blog .blog-latest-post .post-item-wrapper .meta-right .comments-number:before{
+    float:right;
+    content: '\f086';
+    padding-right: 0;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.post-item-wrapper{
+    overflow: visible;
+}
+.widget .widget-title{
+    text-align: right;
+}
+.widget.widget_archive ul li,
+.widget.widget_categories ul li,
+.widget.widget_meta ul li,
+.widget.widget_recent_comments ul li,
+.widget.widget_recent_entries ul li,
+.widget.widget_rss ul li,
+.widget.widget_pages ul li,
+.widget.widget_nav_menu ul li,
+.widget.widget_text ul li{
+    padding-left: 0;
+    padding-right: 15px;
+    text-align: right;
+}
+.widget.widget_archive ul li:before, .widget.widget_categories ul li:before, 
+.widget.widget_meta ul li:before, .widget.widget_nav_menu ul li:before, 
+.widget.widget_pages ul li:before, .widget.widget_recent_comments ul li:before, 
+.widget.widget_recent_entries ul li:before, .widget.widget_rss ul li:before, 
+.widget.widget_text ul li:before {
+    content: '\f104';
+    padding-left: 10px;
+    left: auto;
+    top: 0;
+    right: 0;
+    padding-right: 0;
+}
+
+.comments-area ol li .comment-author img{
+    float:right;
+    margin: 7px 0 15px 15px;
+}
+#return-to-top{
+    text-align: center;
+}
+#return-to-top i{
+    left:0;
+}
+.top-header .menu-icons.header-social a {
+    font-size: 0;
+    line-height: 10px;
+}
+.layout-left-sidebar .widget-area {
+    direction: ltr;
+}
+.layout-right-sidebar .widget-area {
+    direction: ltr;
+}
+
+
+.wp-travel-default-article .wp-travel-article-image-wrap{
+    float:right;
+}
+.wp-travel-default-article .wp-travel-entry-content-wrapper .description-right{
+    border-left:none;
+    border-right: 1px solid #eee;
+}
+
+.wp-travel-itinerary-items ul.wp-travel-itinerary-list .wp-travel-post-item-wrapper .post-title{
+    float:right;
+    text-align: right;
+}
+.wp-travel-itinerary-items ul.wp-travel-itinerary-list .wp-travel-post-wrap-bg .recent-post-bottom-meta{
+    float:left;
+}
+.wp-travel-itinerary-items ul.wp-travel-itinerary-list .wp-travel-post-wrap-bg .recent-post-bottom-meta .trip-price {
+    text-align: left;
+    direction: rtl;
+}
+.widget_wp_travel_filter_search_widget label{
+    text-align: right;
+}
+.wp-travel-search p label,
+ul.availabily-list li > div {
+    float: right;
+    direction: rtl;
+}
+.widget {
+    text-align: right;
+    direction: rtl;
+}
+.share-handle .social-reveal {
+    right: -4px;
+    left: inherit;
+    text-align: right;
+    min-width: 135px;
+}
+.share-handle .social-reveal-active {
+    -webkit-transform: translateX(-48px);
+    -ms-transform: translateX(-48px);
+    transform: translateX(-48px);
+}
+.post-item-wrapper .post-content h4{
+    text-align: right;
+}
+
+.comments-area ol .reply{
+    right: auto;
+    left:30px;
+}
+#breadcrumb .trail-items li{
+    float: right;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 0;
+}
+#breadcrumb .trail-items li::after {
+    position: absolute;
+    content: '\f100';
+    left: -2px;
+}
+
+.custom-header .entry-header .entry-meta > span:not(.card-share) {
+    overflow: hidden;
+}
+
+.custom-header .entry-header .entry-meta .share-handle {
+    margin-top: -15px;
+}
+
+@media (max-width: 992px){
+    .dropdown-children {
+        right: auto;
+        left: 0;
+    }
+
+    .share-handle .social-reveal {
+        left: -4px !important;
+        right: inherit;
+    }
+    .share-handle .social-reveal-active {
+        -webkit-transform: translateX(48px);
+        -ms-transform: translateX(48px);
+        transform: translateX(48px);
+    }
+}
+@media (max-width: 767.99px){
+}

@@ -1,0 +1,515 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Atoz\n"
+"POT-Creation-Date: 2018-01-22 11:56+0530\n"
+"PO-Revision-Date: 2018-01-22 11:56+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49 comments.php:72
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53 comments.php:76
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56 comments.php:79
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:89
+msgid "Comments are closed. "
+msgstr ""
+
+#: footer.php:32
+msgid "ALL RIGHTS RESERVED. COPYRIGHT &#169; 2017. A theme by"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:191
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:193 functions.php:213 functions.php:222 functions.php:231
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:201
+msgid "Footer Widgets 1"
+msgstr ""
+
+#: functions.php:203
+msgid "Add Widgets Here."
+msgstr ""
+
+#: functions.php:211
+msgid "Footer Widgets 2"
+msgstr ""
+
+#: functions.php:220
+msgid "Footer Widgets 3"
+msgstr ""
+
+#: functions.php:229
+msgid "Footer Widgets 4"
+msgstr ""
+
+#: functions.php:278 inc/widgets/recentpost.php:62
+msgid "Read more"
+msgstr ""
+
+#: home.php:74
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: home.php:101
+msgid "TITLE OF THE ITEM"
+msgstr ""
+
+#: home.php:105 inc/customizer.php:394
+msgid "Description goes here. This is the featured item section of the theme."
+msgstr ""
+
+#: home.php:109 inc/customizer.php:406
+msgid "Add Button Text"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Branding"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Theme INFO"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Navigation Text"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Sub Menu Bg"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Menu Hover Color"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Navigation Background"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Add Accent Color to post,button."
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:213
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "All Font Awesome Icons"
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "Footer Social Icons"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Enable/Disable Slider"
+msgstr ""
+
+#: inc/customizer.php:262
+msgid "Slider Category"
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "Select a category for the featured post slider"
+msgstr ""
+
+#: inc/customizer.php:277
+msgid "Number Of Slides To Show - i.e 10 (default is 3)"
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "Search Section"
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Enable search form on homepage"
+msgstr ""
+
+#: inc/customizer.php:303
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer.php:304
+msgid ""
+"Add Title & Description to the blog listing on homepage. Post count can be "
+"changed from Settings -> Reading -> Blog pages show at most"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/customizer.php:317
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer.php:328 inc/customizer.php:402
+msgid "Description"
+msgstr ""
+
+#: inc/customizer.php:338
+msgid "Enable/Disable Related Post"
+msgstr ""
+
+#: inc/customizer.php:353
+msgid "Related Post Count"
+msgstr ""
+
+#: inc/customizer.php:357
+msgid "Featured Item"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid ""
+"Link to your favorite post/page/link from here. Change the default values as "
+"it will not reflect on homepage."
+msgstr ""
+
+#: inc/customizer.php:372
+msgid "Enable this section?"
+msgstr ""
+
+#: inc/customizer.php:381
+msgid "Title of the item"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer.php:414
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:426
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer.php:441
+msgid "Add a featured image"
+msgstr ""
+
+#: inc/customizer.php:460
+msgid "Add a background image"
+msgstr ""
+
+#: inc/customizer.php:475
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "Add a background overlay to add contrast to headings & descriptions."
+msgstr ""
+
+#: inc/customizer.php:489
+msgid "Background Transparency"
+msgstr ""
+
+#: inc/customizer.php:490
+msgid "Change the opacity of the above background color."
+msgstr ""
+
+#: inc/lib/related-post.php:22
+msgid "Related Posts"
+msgstr ""
+
+#: inc/lib/theme-info.php:41
+msgid "Documentation"
+msgstr ""
+
+#: inc/lib/theme-info.php:45
+msgid "Demo"
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s "
+msgstr ""
+
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:59 single.php:49
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:89 template-parts/content-page.php:32
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:128
+msgid "Take a look"
+msgstr ""
+
+#: inc/widgets/recentpost.php:11 inc/widgets/recentpost.php:128
+msgid "The most recent posts on your site with thumbnails"
+msgstr ""
+
+#: inc/widgets/recentpost.php:12
+msgid "atoZ Recent Posts"
+msgstr ""
+
+#: inc/widgets/recentpost.php:32
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/recentpost.php:114
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/recentpost.php:117
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/recentpost.php:121
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widgets/recentpost.php:130
+msgid "atoz Recent Posts"
+msgstr ""
+
+#: inc/widgets/social.php:12
+msgid "A to Z -Sidebar social widget"
+msgstr ""
+
+#: inc/widgets/social.php:14
+msgid "Display a Premium or Feature description."
+msgstr ""
+
+#: inc/widgets/social.php:33
+msgid "Follow us"
+msgstr ""
+
+#: inc/widgets/social.php:39
+msgid "facebook"
+msgstr ""
+
+#: inc/widgets/social.php:42
+msgid "twitter"
+msgstr ""
+
+#: inc/widgets/social.php:45
+msgid "google-plus"
+msgstr ""
+
+#: inc/widgets/social.php:48
+msgid "dribbble"
+msgstr ""
+
+#: inc/widgets/social.php:51
+msgid "behance"
+msgstr ""
+
+#: inc/widgets/social.php:54
+msgid "instagram"
+msgstr ""
+
+#: inc/widgets/social.php:87
+msgid "Social Title"
+msgstr ""
+
+#: inc/widgets/social.php:93
+msgid "Facebook Url"
+msgstr ""
+
+#: inc/widgets/social.php:99
+msgid "Twitter Url"
+msgstr ""
+
+#: inc/widgets/social.php:105
+msgid "Google Url"
+msgstr ""
+
+#: inc/widgets/social.php:111
+msgid "Instagram Title"
+msgstr ""
+
+#: inc/widgets/social.php:117
+msgid "Dribbble Url"
+msgstr ""
+
+#: inc/widgets/social.php:123
+msgid "Behance Url"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:25
+msgid "Newer posts"
+msgstr ""
+
+#: search.php:26
+msgid "Older posts"
+msgstr ""
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Type Here&hellip;"
+msgstr ""
+
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: single.php:52
+#, php-format
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: single.php:64
+msgid "By:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-search.php:22 template-parts/content.php:22
+msgid "View"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Atoz"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://dcrazed.com/themes/atoz/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"atoz is a simple and creative personal blog theme for designers, developers "
+"who are into blogging. Showcase your freebies easily with this free "
+"wordpress blog theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dcrazed"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://dcrazed.com/"
+msgstr ""

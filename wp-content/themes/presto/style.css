@@ -1,0 +1,143 @@
+/*
+Theme Name: Presto 
+Description: Presto is a child theme of most famous WordPress theme Enigma. It is mordern and easy to use. The theme is full of the latest features. Presto is the perfect theme for the professionals, bloggers, and creative personnel’s website, as it provides a clean and flexible appearance, an elegant portfolio, and a catchy online shop. The theme is translation ready, fully SEO optimized, fast loading and is fully compatible with woo commerce and all other major WordPress page builder plugins like Elementor, Visual Composer , SiteOrigin, Beaver Builder, Divi ,Page Builder Sandwich.
+Author: weblizar
+Author URI: http://www.weblizar.com
+Template: enigma
+Version: 0.5
+Tags: rtl-language-support,two-columns, three-columns, custom-menu, right-sidebar, custom-background, featured-image-header, sticky-post, theme-options, threaded-comments, featured-images, flexible-header, translation-ready , blog  , custom-logo , E-Commerce , footer-widgets , portfolio 
+Text Domain: presto
+*/
+
+body.boxed {
+    width: 1170px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px 0 rgba(48, 48, 48, 0.5);
+	    background-color: #a43ca71f;
+}
+.logo h1{
+	color:#fff;
+}
+.wrapper {
+    background: #ffffff;
+}
+@media (min-width: 1200px){
+.boxed #enigma_nav_top.affix {
+    width: 1170px;
+}
+}
+.reply a {
+    background-color: #141515;
+    color: #fff !important;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+h4.enigma_comment_detail_title{
+ color: #31a3dd !important;	
+}
+
+/* product template cc */
+.container.product h1 {
+    text-align: center;
+    padding-bottom: 37px;
+}
+.col-md-3.about-men-top .gallery img {
+	height: 100%;
+    width: 100%;
+}
+.col-md-12.presto-product {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: 2px solid #674665;
+    box-shadow: 0px 0px 19px #ccc;
+}
+.col-md-12.presto-product:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.col-md-12.presto-product .img-thumbnail {
+    border: none;
+}
+.col-md-12.col-sm-12.about-men-name h3 a {
+    color: #ffffff;
+}
+span.price {
+    color: #fff;
+    text-align: center;
+    display: inherit;
+}
+.pro_btn a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    background: #fff;
+    color: #674665;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.container.product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-men-name h3 {
+	text-align: center;
+    margin-top: 4px !important;
+}
+.col-md-12.pro_btn {
+    text-align: center;
+}
+.presto-product .img-thumbnail {
+    padding: 0px;
+}
+.col-md-3.about-men-top {
+    margin-bottom: 23px;
+}
+.top_search .btn-search {
+    background: #674665 !important;
+    border: 1px solid #fff !important;
+}
+.about-men-name {
+	background: #674665;
+    padding-bottom: 17px;
+}
+#wp-calendar caption {
+	color: #fff;
+    background: #674665;
+}
+.enigma_sidebar_widget .btn-search {
+    background: #674665;
+}
+a.added_to_cart.wc-forward {
+    padding: 8px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color: #674665;
+}
+@media(min-width:1200px){
+.top_search .input-group {
+    float: right;
+    margin-right: 11%;
+}
+.product h1 {
+    padding-bottom: 34px;
+}
+}
+
+@media(max-width:480px){
+.carousel-text h1 {
+    font-size: 12px !important;
+}
+.carousel-list li {
+    font-size: 9px !important;
+    padding: 0px !important;
+}
+.carousel-caption {
+    top: 4% !important;
+}
+.carousel-text .enigma_blog_read_btn {
+    font-size: 12px !important;
+	padding: 0px !important;
+}
+}
